@@ -1,7 +1,6 @@
 import pytest
 import builtins
 from project import win, required, player, play_again, game_level, game_rules
-from unittest.mock import Mock, patch
 
 
 def main():

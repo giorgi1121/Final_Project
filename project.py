@@ -8,8 +8,12 @@ from art import draw
 def main():
     # we defined music_file and give it as a parameter to
     # play_music function which plays that music.
-    music_file = "C:\\Users\\admin\\Desktop\\CS50\\Project\\Queen - We Will Rock You (Official Video) (mp3cut.net).mp3"
-    play_music(music_file)
+    music_file = "Queen.mp3"
+    try:
+        play_music(music_file)
+    except FileNotFoundError:
+        pass
+
 
     # defined variable required_points and gave it the value of required function
     # this function prompts user required points for win
@@ -47,6 +51,7 @@ def main():
         if play_again(level) == "yes":
             required_points = required()
             level = game_level()
+            print(game_rules(level))
         else:
             break
 
