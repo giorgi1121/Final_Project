@@ -37,10 +37,18 @@ If user choose level 2 then program prints the rules for advanced version with a
 So, in the Level 2 program does exaclty same thing what happens for Level 1, but there are just 2 more options.
 
 ## Features: 
-### The program provides various features. For example, If user does not want to play anymore he/she can input "Stop" anytime and program will exit. Also, if user needs rules, he/she can input "Rules" anytime and according to the chosen level program will print the rules. It's important that any user input can be case-insensitivly(lower or upper case). Besides, I created file art.py where I drew available choices with ASCII Art, so after every decision program prints player and computer choices with paintings and their points. If player wins program will congratulate, otherwise it says to user to "try again". In both cases program asks user if he/she wants to play again. User can print Yes, No or Rules. If user write "yes" then program prompts user the required points and level and explains the rules. If user writes "no", then program will exit.
+### The program provides various features:
+1. For example, If user does not want to play anymore he/she can input "Stop" anytime and program will exit.
 
-## Errors:
-### I used try/except statements for catching inapropiate values, so any time when user inputs value which is not defined or is inapropiate, program will ask him/her again.
+2. If user needs rules, he/she can input "Rules" anytime and according to the chosen level program will print the rules. 
+
+3. It's important that any user input can be case-insensitivly(lower or upper case). 
+
+4. I created file art.py where I drew available choices with ASCII Art, so after every decision program prints player and computer choices with paintings and their points. 
+
+5. If player wins, program will congratulate, otherwise it says to user to "try again".  In both cases program asks user if he/she wants to play again. User can print Yes, No or Rules. If user write "yes" then program prompts user the required points and level and explains the rules. If user writes "no", then program will exit.
+
+6. I used try/except statements for catching inapropiate values, so any time when user inputs value which is not defined or is inapropiate, program will ask him/her again.
 
 # TODO:
 
