@@ -1,6 +1,6 @@
 # ROCK PAPER SCISSOR
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <https://youtu.be/HAXaNmiojiU>
 
 ### Description: 
 I created Rock Paper Scissor game. In this program there are 2 different levels and several different features.
@@ -42,13 +42,15 @@ So, in the Level 2 program does exaclty same thing what happens for Level 1, but
 
 2. If user needs rules, he/she can input "Rules" anytime and according to the chosen level program will print the rules. 
 
-3. It's important that any user input can be case-insensitivly(lower or upper case). 
+3. It's important that any user input can be case-insensitive(lower or upper case). 
 
 4. I created file art.py where I drew available choices with ASCII Art, so after every decision program prints player and computer choices with paintings and their points. 
 
 5. If player wins, program will congratulate, otherwise it says to user to "try again".  In both cases program asks user if he/she wants to play again. User can print Yes, No or Rules. If user write "yes" then program prompts user the required points and level and explains the rules. If user writes "no", then program will exit.
 
 6. I used try/except statements for catching inapropiate values, so any time when user inputs value which is not defined or is inapropiate, program will ask him/her again.
+
+7. During the game on the background there is music which makes the game more engaging.
 
 # TODO:
 
